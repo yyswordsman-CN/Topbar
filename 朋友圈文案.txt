@@ -1,0 +1,12 @@
+写了个小工具 Topbar，专治 MacBook 刘海强迫症。
+
+三个功能：
+1. 一键隐藏刘海，菜单栏瞬间干净
+2. 被刘海挡住的图标自动找回来
+3. 灵动岛通知——浏览器下载完成直接从刘海弹出提示
+
+纯 Swift 原生开发，开源免费，1.2MB 极致轻量。
+有 MacBook 的朋友可以试试，欢迎 Star
+
+GitHub: https://github.com/yyswordsman-CN/Topbar
+下载: https://github.com/yyswordsman-CN/Topbar/releases/tag/v1.0.0

@@ -158,6 +158,8 @@ final class NotchNotificationManager {
         let rootView = NotchNotificationRootView(state: state)
         let hostingView = NSHostingView(rootView: rootView)
         hostingView.frame = NSRect(x: 0, y: 0, width: panelWidth, height: panelHeight)
+        hostingView.wantsLayer = true
+        hostingView.layer?.backgroundColor = .clear
         w.contentView = hostingView
 
         window = w
@@ -276,8 +278,6 @@ struct NotchNotificationCard: View {
                     )
             }
         )
-        .shadow(color: item.accentColor.opacity(0.25), radius: 16, x: 0, y: 6)
-        .shadow(color: .black.opacity(0.4), radius: 8, x: 0, y: 3)
         // ── 动画 ──
         .scaleEffect(x: isShowing ? 1 : 0.3, y: isShowing ? 1 : 0.1, anchor: .top)
         .opacity(isShowing ? 1 : 0)
