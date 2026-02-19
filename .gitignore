@@ -1,0 +1,40 @@
+# Xcode
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+build/
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.xccheckout
+*.moved-aside
+
+# Build
+dist/
+*.dmg
+*.app
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Signing
+*.p12
+*.cer
+*.mobileprovision
+
+# Misc
+*.swp
+*~
+.vscode/
+.idea/
+.playwright-mcp/
+CONTEXT.md

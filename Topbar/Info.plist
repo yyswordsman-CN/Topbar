@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 隐藏 Dock 图标，App 仅在 Menu Bar 显示 -->
+	<key>LSUIElement</key>
+	<true/>
+
+	<!-- 应用类别 -->
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+
+	<!-- 最低系统版本 -->
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+
+	<!-- 高分辨率支持 -->
+	<key>NSHighResolutionCapable</key>
+	<true/>
+
+	<!-- 支持自动终止（系统内存紧张时） -->
+	<key>NSSupportsAutomaticTermination</key>
+	<true/>
+	<key>NSSupportsSuddenTermination</key>
+	<true/>
+
+	<!-- AppleScript 自动化权限 (用于通过 System Events 查询菜单栏图标) -->
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Topbar 需要通过 System Events 查询被刘海遮挡的菜单栏图标。</string>
+</dict>
+</plist>
