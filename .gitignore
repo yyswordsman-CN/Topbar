@@ -1,3 +1,9 @@
+# Source (keep private)
+Topbar/
+build.sh
+project.yml
+*.txt
+
 # Xcode
 *.xcodeproj/
 !*.xcodeproj/project.pbxproj
